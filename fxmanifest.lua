@@ -2,13 +2,13 @@ fx_version "cerulean"
 game "gta5"
 
 author "Anto Orza#6115"
-description "FPS Menu"
+description "Ls FPS Menu"
 version "1.0.0"
 
 client_scripts {
-  'client/main.lua'
+        'client.lua'
 }
 
-dependencies {
-  'es_extended'
+server_scripts {
+        'server.lua'
 }
