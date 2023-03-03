@@ -8,7 +8,7 @@ end)
 function OpenFPSMenu() 
 
     local elements = {
-		  {label = 'FPS Boost #1',		value = 'fps'},
+      {label = 'FPS Boost #1',		value = 'fps'},
       {label = 'Lights Mode',		value = 'fps5'},       
       {label = 'Graphics',		value = 'fps7'},
       {label = 'Simple/Reset',		value = 'fps2'},		
