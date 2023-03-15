@@ -5,10 +5,6 @@ author "Anto Orza#6115"
 description "Ls FPS Menu"
 version "1.0.0"
 
-client_scripts {
-        'client.lua'
-}
+shared_script 'config.lua'
 
-server_scripts {
-        'server.lua'
-}
+client_script 'client.lua'
